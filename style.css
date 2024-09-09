@@ -1,4 +1,39 @@
 body {
-    background-color: #f5e9db; /* Adjust the color to match the design */
-    font-family: 'Arial', sans-serif; /* Choose a clean, readable font */
+    background-color: #f5e9db;
+    font-family: 'Palatino', serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.recipe-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.dabba {
+    background-color: #f5e4f5;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+
